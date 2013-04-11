@@ -9,9 +9,9 @@ MEDIA_ROOT = os.path.join(PROJECT_ROOT,'uploaded/files/')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'dap_new',                    # Or path to database file if using sqlite3.
-        'USER': 'writer',                      # Not used with sqlite3.
-        'PASSWORD': 'writer',                  # Not used with sqlite3.
+        'NAME': 'tokendatabse',                    # Or path to database file if using sqlite3.
+        'USER': 'root',                      # Not used with sqlite3.
+        'PASSWORD': 'dion',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
